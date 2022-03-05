@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Somando numeros</title>
+    </head>
+<body>
+    <h1>Soma de numeros</h1>
+        <input type="number" value="nmr0">
+        <input type="number" value="nmr1">
+        <input type="button" value="Soma" onclick="somar">
+    <div id="somar1">resultado</div>
+
+<script>
+    function somar(){
+    var tn1 =window.document.getElementById('nmr0')
+    var tn2 =window.document.getElementById('nmr1')
+    var somar1 = window.document.getElementById('somar1')
+    var n1 = number(tn1.ariaValueMax)
+    var n2 = number(tn2.ariaValueMax)
+    var s = n1 + n2
+    somar1.innerHTML= s
+}
+</script>
+</body>
+</html>
